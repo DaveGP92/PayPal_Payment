@@ -1,0 +1,38 @@
+# Entorno virtual de Python (venv)
+Include/
+Lib/
+Scripts/
+pyvenv.cfg
+
+# Archivos de entorno y credenciales
+paypalenv/
+PAYPAL_PAYMENTS/
+*.env
+.env.local
+
+# Archivos generados por Python/PyCache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de configuración IDE/Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de dependencias (si usas Node.js u otros)
+node_modules/
+
+# Logs y datos temporales
+*.log
+*.sqlite3  # Si usas SQLite en desarrollo
+
+# Archivos de construcción/paquetes
+*.egg-info/
+dist/
+build/
