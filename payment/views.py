@@ -45,7 +45,7 @@ def create_order(request, course_id):
         
         "redirect_urls":{
             "return_url": request.build_absolute_uri(f'/courses/{course_id}/payment-success/'),
-            "cancel_url": request.build_absolute_uri(f'/courses/{course_id}/payment-cancel/')  
+            "cancel_url": request.build_absolute_uri('/courses/payment-cancel/')  
         },
         
         "transactions": [{
@@ -102,6 +102,6 @@ def payment_success(request, course_id):
 
 
 
-def payment_cancel(request, course_id):
+def payment_cancel(request):
     """View to handle payment cancellation"""
     return render(request, 'payment_cancel.html')
