@@ -1,6 +1,6 @@
 # 🎯 Django PayPal Integration  
 
-Aplicación Django para procesar pagos con PayPal (modo sandbox y producción).
+Aplicación Django para procesar pagos con PayPal.
 
 ---
 
@@ -31,4 +31,11 @@ source venv/bin/activate
 
 ## Instalar dependencias:
  pip install -r requirements.txt
+
+## Rutas
+- Para ver listado de cursos:
+courses/
+
+-Para ver un curso específico (por id):
+courses/id/
 
