@@ -36,6 +36,6 @@ source venv/bin/activate
 - Para ver listado de cursos:
 courses/
 
--Para ver un curso específico (por id):
+- Para ver un curso específico (por id):
 courses/id/
 
